@@ -176,7 +176,7 @@
     estudos: 2800
   };
 
-  // Aplica o evento a todos os links
+ 
   for (let id in rolagens) {
     const link = document.getElementById(id);
     if (link) {
@@ -194,6 +194,31 @@
     document.getElementById("a").scrollIntoView({ behavior: "smooth" });
   }
 
+function enviarWhats(envent){
+    event.preventDefault()
+
+    const nome = document.getElementById("aa");
+    const mensagem = document.getElementById("mensagem");
+    const telefonedele = document.getElementById("telefone")
+    const telefone = '82993186971'
+    const email = document.getElementById("email")
+    const texto = `Olá! Me chamo ${nome}, ${mensagem}`
+    // if (telefonedele){
+    //     const texto = `Olá Arthur! Me chamo ${nome}\n${telefone}\n ${mensagem}`
+    // }
+    const msgFormatada = encodeURIComponent(texto)
+
+    const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+    console.log(url)
+
+    window.open(url,'_blank')
+}
+
+
+
+
+
+    
 
 
 
