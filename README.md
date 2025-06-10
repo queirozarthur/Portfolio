@@ -1,10 +1,11 @@
 # 👨‍💻 Meu Portfólio
+
 Bem-vindo(a) ao meu portfólio! Sou Arthur Reis Gomes De Mello Queiroz, estudante de Ciência da Computação na Cesar School.
 
 ## 🚀 Sobre mim
 
 - 🎓 Graduando em Ciência da Computação
-- 🛠️ Stack atual: HTML, CSS, JavaScript e Python.
+- 🛠️ Tecnologias usadas: HTML, CSS, JavaScript e uma biblioteca de ícones chamada icons bootstrap (https://icons.getbootstrap.com/)
 - 💡 Sempre aprendendo algo novo!
 
 ## 🗂️ Projetos
@@ -18,8 +19,11 @@ Jogo feito no [Bitsy](https://arthurqueiroz.itch.io/cup-cooking-under-pressure) 
 ### 🐾 VIDA PET
 Aplicação em Python com persistência em arquivos locais. Possui sistema de login e senha que Permite cadastrar pets, eventos, metas e visualizar progresso de forma que cada usuário possui suas metas, eventos e pets diferentes.
 
-## 📫 Contato
+## 📫 Contato <img src="[BadgeURLAqui](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)" />
 
 - ✉️ [queirozarthur2109@email.com](mailto:queirozarthur2109@email.com)
 - 💼 [LinkedIn](https://linkedin.com/in/queirozarthur)
-- 🐈‍⬛ [GitHub](https://github.com/queirozarthur)
+- <img src="[BadgeURLAqui](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)" /> [GitHub](https://github.com/queirozarthur)
+
+---
+
