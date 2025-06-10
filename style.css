@@ -7,12 +7,10 @@
 body{
     background-color:   #000000;
     height: 100vh;
-    ;
 }
 .interface{
     max-width: 1280px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 .flex{
     display: flex;
@@ -58,15 +56,14 @@ header nav ul li{
     padding: 20px;
     transition: 2s;
 }
-
  /**              botoes                                                **/
-
 .btn-contato button{
     padding: 10px 25px;
     font-size: 18px;
     font-weight: 600;
-    color:#7b7b78;
-    background:#DD2E2E;
+    color:#ffffff;
+    background-color: #7b7b78;
+    cursor: pointer;
     /* background-color: rgb(255, 0, 85); */
     border: 0;
     border-radius: 15px;
@@ -75,6 +72,7 @@ header nav ul li{
     transform: scale(1.1);
     transition:175ms ;
     color: white;
+    background-color: #DD2E2E;
 }
 .btn-social button:hover{
     transform: scale(1.3);
@@ -102,7 +100,6 @@ section.topo-do-site .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;  
-    
 }
 
 /*gap*/
@@ -125,7 +122,8 @@ section.parag.flex{
 
 .topo-do-site .txt-topo-site p {
     color: white;
-    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 22px;
 }
 
@@ -146,8 +144,6 @@ section.especialidades .flex{
     transform: scale(1.04);
     transition: 175ms;
     box-shadow: 0 0 8px white;
-
-
 }
 .especialidades .especialidades-box i{
     font-size: 70px;
@@ -163,7 +159,6 @@ section.especialidades .flex{
 /*SOBRE MIM*/
 section.sobre{
     padding: 60px 4%;
-
 }
 section.sobre .flex{
     align-items: center;
