@@ -42,8 +42,8 @@
             <div class="txt-topo-site">
                 <h1>Seja bem vindo ao meu portfólio<span>.</span></h1>
                 <p class="parag">Olá! Me chamo Arthur, tenho 18 anos e sou estudante de Ciência da Computação na Cesar School. Atualmente estou no primeiro período e quero aprofundar o quanto mais meus estudos.</p>
-                <div class="btn-contato">
-                <button>Entre em Contato</button>
+                <div onclick="scrollParaBaixo()" class= "btn-contato">
+                <button class= "estudos">Entre em Contato</button>
                 </div>
 
             </div><!-- txt-topo-site-->
@@ -121,12 +121,13 @@
             </div><!--img-port-->
             <div class="img-port" style="background-image: url(images/vidapet.png);">
                 <div class="overlay">
-                    VIDA PET
+                VIDA PET
                 </div><!--overlay-->
             </div><!--img-port-->
         </div><!--flex-->
     </div><!--interface-->
 </section><!--portifolio-->
+<div id="a"></div>
 <section class="formulario">
     <div class="interface">
         <h2 class="titulo">
@@ -158,11 +159,16 @@
                     </div><!--btn-social--> 
                 </div><!--flex-->
             </div><!--line-footer-->
+
+
             <div class="line-footer borda">
                 <p><i class="bi bi-envelope"></i> <a href="mailto:queirozarthur2109@gmail.com">queirozarthur2109@gmail.com</a></p>
+
             </div><!--line-footer-->
+
         </div><!--interdace-->
     </footer>
+
 <script>
   const rolagens = {
     inicio: 100,
@@ -181,6 +187,10 @@
         });
       });
     }
+  }
+
+    function scrollParaBaixo() {
+    document.getElementById("a").scrollIntoView({ behavior: "smooth" });
   }
 </script>
 
