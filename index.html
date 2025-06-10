@@ -2,8 +2,8 @@
 <html lang="pt-br">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="icon" href="images/logo.png">
+        
+    <link rel="icon" href="logo.png">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <img src="images/LOGO.png" alt="Logo do meu portifólio" width="50" height="50">
+                    <img src="LOGO.png" alt="Logo do meu portifólio" width="50" height="50">
                 </a>
             </div><!--logo!-->
 
@@ -50,7 +50,7 @@
 
 
             <div class="img-topo-site">
-                <img src="images/eu.png" alt="eu" width="228" height="453">
+                <img src="eu.png" alt="eu" width="228" height="453">
 
             </div><!--img-topo-site-->>
         </div><!--flex -->
@@ -86,7 +86,7 @@
     <div class="interface">
         <div class="flex">
             <div class="img-sobre">
-                <img src="images/eu_apresentando.png" alt="" width="294" height="524">
+                <img src="eu_apresentando.png" alt="" width="294" height="524">
              </div><!--img-sobre-->
 
 
@@ -109,17 +109,17 @@
     <div class="interface">
         <h2 class="titulo"> MEUS <span>PROJETOS.</span></h2>
         <div class="flex">
-            <div class="img-port" style="background-image: url(images/formitas.png);">
+            <div class="img-port" style="background-image: url(formitas.png);">
                 <div class="overlay">
                 FORMITAS
                 </div><!--overlay-->
             </div><!--img-port-->
-            <div class="img-port" style="background-image: url(images/cup.png);">
+            <div class="img-port" style="background-image: url(cup.png);">
                 <div class="overlay">
                 CUP
                 </div><!--overlay-->
             </div><!--img-port-->
-            <div class="img-port" style="background-image: url(images/vidapet.png);">
+            <div class="img-port" style="background-image: url(vidapet.png);">
                 <div class="overlay">
                 VIDA PET
                 </div><!--overlay-->
@@ -150,7 +150,7 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="images/logo.png" alt="" height="50" width="50">
+                        <img src="logo.png" alt="" height="50" width="50">
                     </div><!--logo-footer-->
                     <div class="btn-social">
                         <a href="https://www.linkedin.com/in/queirozarthur/"><button><i class="bi bi-linkedin"></i></button></a>
@@ -176,6 +176,8 @@
     projetos: 2100,
     estudos: 2800
   };
+
+  // Aplica o evento a todos os links
   for (let id in rolagens) {
     const link = document.getElementById(id);
     if (link) {
@@ -192,6 +194,10 @@
     function scrollParaBaixo() {
     document.getElementById("a").scrollIntoView({ behavior: "smooth" });
   }
+
+
+
+
 </script>
 
 
