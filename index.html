@@ -133,8 +133,6 @@
             FALE <span>COMIGO.</span></h2>
             <form action="">
                 <input type="text" id="aa" placeholder="Seu nome: " required>
-                <input type="text" id="" placeholder= "Seu E-mail: " required>
-                <input type="text" id="" placeholder="Seu Telefone: " >
                 <textarea  id="" placeholder="Sua mensagem: "></textarea>
                 <div class="btn-enviar">
                     <input type="submit" value="ENVIAR">
@@ -199,15 +197,9 @@ function enviarWhats(envent){
 
     const nome = document.getElementById("aa");
     const mensagem = document.getElementById("mensagem");
-    const telefonedele = document.getElementById("telefone")
     const telefone = '82993186971'
-    const email = document.getElementById("email")
     const texto = `Olá! Me chamo ${nome}, ${mensagem}`
-    // if (telefonedele){
-    //     const texto = `Olá Arthur! Me chamo ${nome}\n${telefone}\n ${mensagem}`
-    // }
     const msgFormatada = encodeURIComponent(texto)
-
     const url = `https://wa.me/${telefone}?text=${msgFormatada}`
     console.log(url)
 
