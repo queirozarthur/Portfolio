@@ -296,3 +296,43 @@ footer .line-footer a{
 .borda{
     border-top: 2px solid #DD2E2E;
 }
+
+@media screen and (max-width: 1020px){
+    .desktop, .btn-contato{
+        display: none;
+    }
+    h2.titulo{
+        font-size: 34px ;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .topo-do-site h1 {
+    font-size:38px;
+    line-height: 33px;
+    }
+    section.topo-do-site{
+    padding: 80px 6%;
+    }
+    .img-port{
+    width: 100%;
+    }
+    section.especialidades{
+    padding: 40px 8%;
+    }
+    section.sobre{
+        padding: 40px 4% ;
+    }
+    .sobre .txt-sobre h2{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    section.portifolio{
+    padding: 80px 4%;
+    }
+    footer .flex{
+        flex-direction: column;
+    }
+}
