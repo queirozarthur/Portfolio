@@ -2,7 +2,7 @@
 link: https://queirozarthur.github.io/Portfolio/?#
 
 Bem-vindo(a) ao meu portfólio! Sou Arthur Reis Gomes De Mello Queiroz, estudante de Ciência da Computação na Cesar School.
-
+Vale lembrar que o portfílio é responsivo para celular.
 ## 🚀 Sobre mim
 
 - 🎓 Graduando em Ciência da Computação
