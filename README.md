@@ -17,8 +17,8 @@ Jogo físico desenvolvido para crianças com Síndrome de Down. Foi feito com Ar
 ### 💡 CUP - Cooking Under Pressure
 Jogo feito no [Bitsy](https://arthurqueiroz.itch.io/cup-cooking-under-pressure) Jogo produzido Por mim e mais dois amigos na cadeira de Introdução a computação com o professor erick. O objetivo do jogo é encontrar todos os itens da receita escolhida e entregar para o chefe.
 
-### 🐾 VIDA PET
-Aplicação em Python com persistência em arquivos locais. Possui sistema de login e senha que Permite cadastrar pets, eventos, metas e visualizar progresso de forma que cada usuário possui suas metas, eventos e pets diferentes.
+###  🎵  JohnRadioWeb
+Projeto desenvolvido para a Rádio JohnRadioWeb, onde o site reproduz o streaming da rádio. [Link](https://www.johnradioweb.com.br/)
 
 ## 📫 Contato <img src="[BadgeURLAqui](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)" />
 
