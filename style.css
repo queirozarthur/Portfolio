@@ -212,6 +212,8 @@ section.portifolio .flex{
 }
 .img-port:hover{
     background-position: 100% 100%;
+    transform: scale(1.05); 
+    transition: 0.3s;
 }
 .overlay{
     position: absolute;
