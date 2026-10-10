@@ -37,16 +37,13 @@ export function About({ dark }: { dark: boolean }) {
                 Curso Ciência da Computação na CESAR School, com formatura prevista para 2028, e faço sites como freelancer.
               </p>
               <p>
-                No back-end uso Python com Django ou FastAPI. No front, React com TypeScript, ou HTML, CSS e JavaScript puro
-                quando o projeto pede algo mais simples.
-              </p>
-              <p>
-                Boa parte do que está aqui começou com{" "}
+                Prefiro buscar soluções para{" "}
                 <HighlightedText inView delay={0.2}>
-                  o problema de alguém
-                </HighlightedText>
-                : uma rádio que precisava de site novo, um delivery de sushi que recebe pedidos pelo WhatsApp, eu querendo
-                entender para onde vai o meu dinheiro.
+                  problemas reais
+                </HighlightedText>{" "}
+                a ficar só em exercício. Por isso boa parte do que está aqui tem alguém do outro lado usando: o site de uma
+                rádio que toca 24 horas, o delivery de um restaurante de sushi, o portal do Jornal do Commercio e um painel
+                para o SEBRAE-PE.
               </p>
             </div>
             <p className="font-mono text-xs text-subtle">Também sou monitor de Infraestrutura de Software na faculdade.</p>
