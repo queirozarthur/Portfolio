@@ -25,7 +25,6 @@ A maior parte da interface parte de componentes do [Spell UI](https://spell.sh) 
 | Fundo do topo | Light Rays (portado de three.js para WebGL puro) | Spell UI |
 | Nome e títulos | Blur Reveal | Spell UI |
 | Rótulos das seções | Special Text | Spell UI |
-| "Disponível para estágio" | Shimmer Text | Spell UI |
 | Botão do currículo | Flow Button | Spell UI |
 | Faixa de tecnologias | Marquee | Spell UI |
 | Destaque no "Sobre" | Highlighted Text | Spell UI |

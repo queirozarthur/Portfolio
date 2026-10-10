@@ -13,7 +13,7 @@ export const profile = {
   roles: [
     "sites para clientes reais",
     "APIs com Django e FastAPI",
-    "jogos em C com Raylib",
+    "automatização de processos",
     "dashboards em React",
   ],
   facts: ["Recife, PE", "CESAR School · 2024–2028", "CS50x · Harvard", "Inglês fluente"],
@@ -97,16 +97,16 @@ export const featuredProjects: Project[] = [
     slug: "tlt-midias",
     title: "TLT Mídias",
     kicker: "CESAR School · Jornal do Commercio",
-    year: "",
+    year: "2025",
     summary:
-      "Repaginação do portal online do Jornal do Commercio, com foco em priorizar o que importa na capa.",
+      "Repaginação do portal online do Jornal do Commercio para fazer o leitor ficar mais tempo no site.",
     highlights: [
       "Busca, comentários e notificações de breaking news",
-      "Testes automatizados desde o começo",
-      "Pipeline de CI/CD com deploy contínuo",
+      "Destaque das matérias mais relevantes na página inicial",
+      "Testes E2E com Cypress e deploy contínuo no Azure",
     ],
-    stack: ["Django", "Python", "CI/CD"],
-    links: [],
+    stack: ["Django", "Python", "Cypress", "Azure"],
+    links: [{ label: "Código", href: "https://github.com/Nobutann/TLTMidias" }],
     cover: { kind: "newspaper" },
   },
   {
@@ -199,13 +199,13 @@ export const moreProjects: IndexEntry[] = [
   {
     title: "CUP — Cooking Under Pressure",
     detail: "Jogo em Bitsy feito a seis mãos em Introdução à Computação",
-    year: "2024",
+    year: "2025",
     href: "https://arthurqueiroz.itch.io/cup-cooking-under-pressure",
   },
   {
     title: "Formitas",
     detail: "Jogo físico com Arduino para crianças com Síndrome de Down",
-    year: "2024",
+    year: "2025",
   },
 ];
 

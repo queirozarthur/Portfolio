@@ -3,7 +3,6 @@ import { motion } from "motion/react";
 import { ArrowDown, Download } from "lucide-react";
 import { LightRays } from "@/components/spell/light-rays";
 import { BlurReveal } from "@/components/spell/blur-reveal";
-import { ShimmerText } from "@/components/spell/shimmer-text";
 import { FlowButton } from "@/components/spell/flow-button";
 import { FlipWords } from "@/components/21st/flip-words";
 import { GridPattern } from "@/components/21st/grid-pattern";
@@ -62,19 +61,6 @@ export function Hero({ dark }: { dark: boolean }) {
         </div>
 
         <div className="flex flex-1 flex-col justify-center pt-16 sm:pt-20">
-          <motion.div {...fadeUp(0.1)} className="mb-7 inline-flex w-fit items-center gap-2.5 rounded-full border border-line bg-surface/60 py-1 pr-4 pl-1 backdrop-blur">
-            <img src={asset("me/avatar.webp")} alt="" width={28} height={28} className="size-7 rounded-full object-cover" />
-            <span className="relative flex size-2">
-              <span className="absolute inset-0 animate-[pulse-ring_2s_ease-out_infinite] rounded-full bg-accent" />
-              <span className="relative size-2 rounded-full bg-accent" />
-            </span>
-            <span className="text-sm text-fg">
-              <ShimmerText duration={2.2} delay={1.2}>
-                Disponível para estágio
-              </ShimmerText>
-            </span>
-          </motion.div>
-
           <BlurReveal
             as="h1"
             delay={0.15}

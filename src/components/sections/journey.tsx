@@ -30,7 +30,6 @@ export function Journey() {
         index="03"
         label="Trajetória"
         title="Até aqui"
-        lead="Faculdade, monitoria, freela e um ano fora do país. Do mais recente para o mais antigo."
       />
       <Timeline data={data} />
     </section>
